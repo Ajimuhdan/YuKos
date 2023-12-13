@@ -1,0 +1,111 @@
+body {
+  font-family: helvetica;
+  height: 100%;
+  background-color: #2b3035 !important;
+}
+
+.banner {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('image/gambar2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilKos {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.profilKos h2 {
+  color: white;
+}
+
+.profilKos h3 {
+  color: white;
+}
+
+.profilKos p {
+  color: white;
+}
+
+.fotoKos {
+  padding-bottom: 40px;
+}
+
+.fotoKos h2 {
+  color: white;
+}
+
+.images {
+  display: flex;
+  width: 100%;
+  transition: 1s;
+}
+
+.images img {
+  width: 100%;
+}
+
+.wrapper {
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+#slide-1:target ~ .images {
+  margin-left: 0px;
+}
+
+#slide-2:target ~ .images {
+  margin-left: -100%;
+}
+
+#slide-3:target ~ .images {
+  margin-left: -200%;
+}
+
+#slide-4:target ~ .images {
+  margin-left: -300%;
+}
+
+.navigation a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: lightgrey;
+  font-size: 0px;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.navigation a:hover {
+  background-color: gray;
+}
+
+.navigation {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.watermark {
+  padding-bottom: 5px;
+}
+
+.watermark p {
+  color: white;
+}
