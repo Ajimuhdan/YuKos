@@ -5,6 +5,9 @@ Teknologi :
 - Bootstrap 5.*
 - MySQL/MariaDB
 
+Database :
+- yukos.sql
+
 User Login :
 1. Akun Admin
 - username : admin
